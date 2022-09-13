@@ -10,6 +10,9 @@ main{
   width: 800px;
   margin: 0 auto;
   background-color: orange;
+  display: flex;
+  justify-content: space-evenly;
+  
 }
 
 section{
@@ -26,13 +29,17 @@ section{
 }
 
 #section-2{
+  flex-grow: calc(2/5);
 }
 
 #section-3{
+  flex-grow: calc(3/5);
 }
 
 #section-4{
+  flex-basis: 200px;
 }
 
 #section-5{
+  order: -1;
 }

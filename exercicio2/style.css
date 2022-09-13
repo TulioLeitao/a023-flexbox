@@ -6,4 +6,10 @@
 main{
   padding-top: 20px;
   display: flex;
+  flex-wrap: wrap;
+  
+}
+figure{
+  margin: 10px;
+  padding: 10px;
 }
