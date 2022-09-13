@@ -25,9 +25,6 @@ section{
   flex-basis: 80px;
 }
 
-#section-1{
-}
-
 #section-2{
   flex-grow: calc(2/5);
 }
